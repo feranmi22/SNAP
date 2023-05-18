@@ -1,0 +1,144 @@
+body{
+    background: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 26px;
+}
+.nav-item a{
+    color: black;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.nav-item a:hover{
+    color: gray;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav-items a{
+    color: gray;
+    padding-top: 10px;
+}
+.rounded.float-end{
+    display: flex;
+}
+.nav{
+    margin-right: 55px;
+}
+.butt{
+    border: 2px solid gray;
+    border-radius: 15%;
+}
+.butt a:hover{
+    color: gray;
+}
+.nav-items a:hover{
+    color: black;
+}
+span{
+    display: block;
+}
+.col-sm-5{
+    padding-top: 70px;
+}
+.mb-5.md{
+    color: gray;
+}
+.pb-4.md{
+    font-weight: bold;
+    font-size: 50px;
+}
+.dropdown-menu li a:hover{
+    background: none;
+}
+.main a{
+    text-decoration: none;
+    color: white;
+    background: rgb(24, 22, 22);
+    padding: 10px 13px;
+    border-radius: 7px;
+}
+.main a:hover{
+    border: black 1px solid;
+    color: black;
+    background: whitesmoke;
+}
+.navbar-toggler{
+    border: none;
+}
+.client{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+    .pb-4.md{
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .mb-5.md{
+        text-align: center;
+        color: gray;
+    }
+    .main a{
+        margin-left: 180px;
+    }
+    .col-sm-6{
+        width: 400px;
+        padding: 0;
+        margin-left: 40px;
+    }
+    span{
+        display: inline;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .nav{
+        padding-top: 35px;
+      }
+      .nav-items a{
+        color: gray;
+      }
+      .rounded.float-end{
+        display: block;
+        padding-left: 35px;
+        text-align: center;
+      }
+      .butt{
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+}
+/* .text{
+    padding-top: 65px;
+}
+.text h2{
+    font-size: 55px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.text p{
+    padding-bottom: 25px;
+}
+.text a{
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 9px 17px;
+    background: black;
+    color: white;
+} */
+
+
